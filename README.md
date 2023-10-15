@@ -1,4 +1,4 @@
-# Patrick Li
+# c-projects-pli
 This is my personal repository for C and C++ project assignments.
 
 ## Code:
