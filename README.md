@@ -29,8 +29,6 @@ This file implements a program to conduct photoshop operations on an image. It t
 ## Error handling
 In the event of an error, the program will return a specified error code. Otherwise, it will return 0 for a successful operation
 
-
-
 # Vending machine
 - Program that simulates a terminal-based vending machine.
 - The user can buy something with sufficient funds and as long as it's in stock.
@@ -46,3 +44,28 @@ In the event of an error, the program will return a specified error code. Otherw
 # Tree Compare
 - Simulate a tree-like structure, where a Tree object can have a list of "sibling" and "kid" trees. 
 - User can add and remove sibling and children trees
+
+# Big Integers
+- Implemented operations on a data type called UInt256, which is a 256-bit unsigned integer data type. 
+- Its internal representation contains an array of 8 uint32_t values
+- Addition, multiplication, conversion to hex, etc.
+
+# Word count
+- Word count program implemented in C and x86-64 assembly.
+- Counts the number of words in a given text file, recording number of occurrences, unique words, etc.
+- Functions implemented in both C and assembly
+
+# Cache simulator
+- Takes in a list of memory acccesses, and simulates what a cache based on certain parameters would do
+- Allows for write-allocate, no-write-allocate, write-through, write-back, etc.
+- Keeps track of various statistics (hits, misses, total cycles, etc.)
+
+# Parallel merge sort
+- Implementation of merge sort whose computation is parallelized with child processes
+- Uses fork/join model of computation
+- Example of concurrency with processes
+
+# Chat server
+- A chat client program that communicates asynchrously with a server in real-time
+- Application that allows for communication over a network (specifically TCP connections)
+- Uses concurrency and synchronization primitives to coordinate access to shared data
